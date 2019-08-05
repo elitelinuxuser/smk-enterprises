@@ -1,0 +1,31 @@
+$site-orange: #fca311;
+$primary-color: $site-orange;
+$my-brand-color: #001529;
+@import 'loaders.css/src/animations/pacman.scss';
+
+.loader-hidden {
+    display: none;
+  }
+  .loader-active {
+    display: block;
+  }
+  .loading-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $my-brand-color
+  }
+  
+  .login-form {
+      max-width: 300px;
+    }
+    .login-form-forgot {
+      float: right;
+    }
+    .login-form-button {
+      width: 100%;
+    }
+    .row-form {
+        height: 100vh;
+    }
